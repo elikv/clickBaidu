@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="jfinal_demo_for_maven">
+    <wb-module deploy-name="baiduClick">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <property name="context-root" value="jfinal_demo_for_maven"/>
-        <property name="java-output-path" value="/jfinal_demo_for_maven/target/classes"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <dependent-module archiveName="weibo4j-oauth2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/16315/Desktop/weibo4j-oauth2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/16315/Desktop/weibo4j-oauth2/lib/commons-codec.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/16315/Desktop/weibo4j-oauth2/lib/commons-logging-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-httpclient-3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/16315/Desktop/weibo4j-oauth2/lib/commons-httpclient-3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-all-1.8.5.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/16315/Desktop/weibo4j-oauth2/lib/jackson-all-1.8.5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="baiduClick"/>
+        <property name="java-output-path" value="/baiduClick/target/classes"/>
     </wb-module>
 </project-modules>
